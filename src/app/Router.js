@@ -1,13 +1,11 @@
-import store from "./Store.js"
-import Login, { PREVIOUS_LOCATION } from "../containers/Login.js"
-import Bills  from "../containers/Bills.js"
-import NewBill from "../containers/NewBill.js"
-import Dashboard from "../containers/Dashboard.js"
-
-import BillsUI from "../views/BillsUI.js"
-import DashboardUI from "../views/DashboardUI.js"
-
-import { ROUTES, ROUTES_PATH } from "../constants/routes.js"
+import store from "./Store.js";
+import Login, { PREVIOUS_LOCATION } from "../containers/Login.js";
+import Bills  from "../containers/Bills.js";
+import NewBill from "../containers/NewBill.js";
+import Dashboard from "../containers/Dashboard.js";
+import BillsUI from "../views/BillsUI.js";
+import DashboardUI from "../views/DashboardUI.js";
+import { ROUTES, ROUTES_PATH } from "../constants/routes.js";
 
 export default () => {
   const rootDiv = document.getElementById('root')
@@ -110,7 +108,5 @@ export default () => {
       })
     }
   }
-
   return null
 }
-

@@ -1,4 +1,3 @@
-
 const jsonOrThrowIfError = async (response) => {
   if(!response.ok) throw new Error((await response.json()).message)
   return response.json()
@@ -51,8 +50,6 @@ class ApiEntity {
     return await (this.api.delete({url: `/${this.key}/${selector}`, headers: getHeaders(headers)}))
   }
 }
-
-
 
 class Store {
   constructor() {

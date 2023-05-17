@@ -1,9 +1,9 @@
-import { formatDate } from '../app/format.js'
-import DashboardFormUI from '../views/DashboardFormUI.js'
-import BigBilledIcon from '../assets/svg/big_billed.js'
-import { ROUTES_PATH } from '../constants/routes.js'
-import USERS_TEST from '../constants/usersTest.js'
-import Logout from "./Logout.js"
+import { formatDate } from "../app/format.js";
+import DashboardFormUI from "../views/DashboardFormUI.js";
+import BigBilledIcon from "../assets/svg/big_billed.js";
+import { ROUTES_PATH } from "../constants/routes.js";
+import USERS_TEST from "../constants/usersTest.js";
+import Logout from "./Logout.js";
 
 export const filteredBills = (data, status) => {
   return (data && data.length) ?
