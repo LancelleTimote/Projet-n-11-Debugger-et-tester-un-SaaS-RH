@@ -142,7 +142,6 @@ export default class {
         this.handleEditTicket(e, bill, bills)
       );
     });
-
     return bills;
   }
 

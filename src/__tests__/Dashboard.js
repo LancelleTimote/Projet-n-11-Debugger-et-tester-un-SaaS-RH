@@ -150,7 +150,6 @@ describe('Given I am connected as an Admin', () => {
     })
   })
 
-
   describe('When I am on Dashboard and there are no bills', () => {
     test('Then, no cards should be shown', () => {
       document.body.innerHTML = cards([])
@@ -186,6 +185,7 @@ describe('Given I am connected as Admin, and I am on Dashboard page, and I click
       expect(bigBilledIcon).toBeTruthy()
     })
   })
+
   describe('When I click on refuse button', () => {
     test('I should be sent on Dashboard with big billed icon instead of form', () => {
       Object.defineProperty(window, 'localStorage', { value: localStorageMock })
