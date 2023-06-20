@@ -41,10 +41,12 @@ export default class NewBill {
           this.billId = key;
           this.fileUrl = fileUrl;
           this.fileName = fileName;
+          document.getElementById("error-message").textContent = "";
         })
         .catch(error => console.error(error));
     }else{
       fileNode.value = "";
+      document.getElementById("error-message").textContent = "Format d'image non pris en charge. Veuillez sélectionner un fichier au format PNG, JPG ou JPEG.";
     }
   };
   handleSubmit = (e) => {
