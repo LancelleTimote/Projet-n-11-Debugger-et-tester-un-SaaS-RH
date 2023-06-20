@@ -1,10 +1,10 @@
 # Projet n°11 : Débugger et tester un SaaS RH (partie front-end)
 
-![GitHub contributors](https://img.shields.io/github/contributors/LancelleTimote/Projet-n-11-Debugger-et-tester-un-SaaS-RH-partie-front-end?style=flat-square&color=green)
-![GitHub language count](https://img.shields.io/github/languages/count/LancelleTimote/Projet-n-11-Debugger-et-tester-un-SaaS-RH-partie-front-end?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/LancelleTimote/Projet-n-11-Debugger-et-tester-un-SaaS-RH-partie-front-end?style=flat-square)
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/LancelleTimote/Projet-n-11-Debugger-et-tester-un-SaaS-RH-partie-front-end?style=flat-square)
-![GitHub](https://img.shields.io/github/license/LancelleTimote/Projet-n-11-Debugger-et-tester-un-SaaS-RH-partie-front-end?style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/LancelleTimote/Projet-n-11-Debugger-et-tester-un-SaaS-RH-partie-front-end?color=green&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/LancelleTimote/Projet-n-11-Debugger-et-tester-un-SaaS-RH-partie-front-end?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/LancelleTimote/Projet-n-11-Debugger-et-tester-un-SaaS-RH-partie-front-end?style=for-the-badge)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/LancelleTimote/Projet-n-11-Debugger-et-tester-un-SaaS-RH-partie-front-end?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/LancelleTimote/Projet-n-11-Debugger-et-tester-un-SaaS-RH-partie-front-end?style=for-the-badge)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/timote-lancelle-devweb/)
 
 ## :mag: Aperçu
@@ -77,12 +77,12 @@ Matthieu, Lead Developer de la feature team a demandé à être aidé pour tenir
 * Le site est disponible sur le navigateur en allant sur : http://127.0.0.1:8080/
 * Vous pouvez vous connecter en utilisant les comptes :
 
-### Administrateur :
+Administrateur :
 ```
 utilisateur : admin@test.tld
 mot de passe : admin
 ```
-### Employé :
+Employé :
 ```
 utilisateur : employee@test.tld
 mot de passe : employee
