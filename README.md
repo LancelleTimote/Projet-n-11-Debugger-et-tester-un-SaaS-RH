@@ -72,8 +72,8 @@ Matthieu, Lead Developer de la feature team a demandé à être aidé pour tenir
 * Dans le terminal à partir du dossier front-end, exécuter live-server
 * L'api est disponible sur : http://localhost:5678
 * La couverture de test est disponible sur : http://127.0.0.1:8080/coverage/lcov-report/
-* Pour lancer un test seul, installez jest-cli en exécutant npm i -g jest-cli, puis dans le terminal à partir du dossier front-end lancer la commande jest src/__tests__/your_test_file.js
-* Pour lancer tous les tests en local avec Jest, dans le terminal à partir du dossier front-end, exécuter npm run test
+* Pour lancer un test seul, installez jest-cli en exécutant npm i -g jest-cli, puis dans le terminal à partir du dossier front-end lancez la commande jest src/__tests__/your_test_file.js
+* Pour lancer tous les tests en local avec Jest, dans le terminal à partir du dossier front-end, exécutez npm run test.
 * Le site est disponible sur le navigateur en allant sur : http://127.0.0.1:8080/
 * Vous pouvez vous connecter en utilisant les comptes :
 
